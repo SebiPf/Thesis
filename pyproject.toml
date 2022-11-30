@@ -1,0 +1,24 @@
+[project]
+name        = "ThesisSebPfeiff"
+version     = "0.0.1"
+description = "Thesis Sebastian Pfeiffer, "
+readme      = "README.md"
+authors     = [
+  { name = "Uwe Hahne", email = "uwe.hahne@hs-furtwangen.de" },
+  { name = "Sebastian Pfeiffer", email = "sebastian.pfeiffer@hs-furtwangen.de" }
+]
+keywords    = ["openai", "gym", "RL"]
+requires-python = ">=3.9.0"
+dependencies    = [
+  "black==22.10.0",
+  "gym==0.26.2",
+  "numpy==1.23.4",
+  "pygame==2.1.2",
+  "tensorflow==2.11.0",
+  "keras==2.11.0",
+  "pycodestyle==2.9.1",
+  "keras-rl2==1.0.5"
+]
+
+[tool.black]
+line-length = 120
